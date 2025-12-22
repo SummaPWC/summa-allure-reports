@@ -9,15 +9,15 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Thu, 18 Dec 2025 11:48:20 GMT[22m
+[2m  date: Mon, 22 Dec 2025 12:09:21 GMT[22m
 [2m  content-type: text/html[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: cloudflare[22m
 [2m  cf-cache-status: DYNAMIC[22m
 [2m  nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[22m
-[2m  report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FDWhZsHNJsCtIXNpljrgGibVeedAGHAmu%2BatfCcxJIx6vFeifvRJJKrKTW1h%2BgyD%2Fbh2EDKMlxP8a98mfLN6Yn2IXbyOnBMJUkw%3D"}]}[22m
-[2m  cf-ray: 9afe6d9aef57c666-TLV[22m
+[2m  report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AHNUfaUyLCk%2BI0Kc20KsFA1onRe4OGX1QmlPTm1IcZVnNaJnKPHWt3AB1XpZCG2FnUGEWvld3dxXl3h%2FkY23SQfIFF4RoZoQzGs%3D"}]}[22m
+[2m  cf-ray: 9b1f81c418e74afa-TLV[22m
 [2m  alt-svc: h3=":443"; ma=86400[22m
 
 Response text:
@@ -34,15 +34,15 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Thu, 18 Dec 2025 11:48:20 GMT[22m
+[2m  date: Mon, 22 Dec 2025 12:09:21 GMT[22m
 [2m  content-type: text/html[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: cloudflare[22m
 [2m  cf-cache-status: DYNAMIC[22m
 [2m  nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[22m
-[2m  report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FDWhZsHNJsCtIXNpljrgGibVeedAGHAmu%2BatfCcxJIx6vFeifvRJJKrKTW1h%2BgyD%2Fbh2EDKMlxP8a98mfLN6Yn2IXbyOnBMJUkw%3D"}]}[22m
-[2m  cf-ray: 9afe6d9aef57c666-TLV[22m
+[2m  report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AHNUfaUyLCk%2BI0Kc20KsFA1onRe4OGX1QmlPTm1IcZVnNaJnKPHWt3AB1XpZCG2FnUGEWvld3dxXl3h%2FkY23SQfIFF4RoZoQzGs%3D"}]}[22m
+[2m  cf-ray: 9b1f81c418e74afa-TLV[22m
 [2m  alt-svc: h3=":443"; ma=86400[22m
 Response text:
 [2mThe page cannot be displayed because an internal server error has occurred.ERROR!<br><br>[22m
