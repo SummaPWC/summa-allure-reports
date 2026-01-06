@@ -9,15 +9,15 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Mon, 05 Jan 2026 09:45:08 GMT[22m
+[2m  date: Tue, 06 Jan 2026 10:06:28 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: Kestrel[22m
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
-[2m  x-rate-limit-remaining: 89999985[22m
-[2m  x-rate-limit-reset: 2026-01-12T09:37:05.7636699Z[22m
+[2m  x-rate-limit-remaining: 89999994[22m
+[2m  x-rate-limit-reset: 2026-01-13T10:03:01.0782313Z[22m
 
 Response text:
 [2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
@@ -36,15 +36,15 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Mon, 05 Jan 2026 09:45:08 GMT[22m
+[2m  date: Tue, 06 Jan 2026 10:06:28 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: Kestrel[22m
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
-[2m  x-rate-limit-remaining: 89999985[22m
-[2m  x-rate-limit-reset: 2026-01-12T09:37:05.7636699Z[22m
+[2m  x-rate-limit-remaining: 89999994[22m
+[2m  x-rate-limit-reset: 2026-01-13T10:03:01.0782313Z[22m
 Response text:
 [2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
 [2m   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
