@@ -1,0 +1,15 @@
+Error #1: [31mTest timeout of 90000ms exceeded.[39m
+[31mTest timeout of 90000ms exceeded.[39m
+
+Error #2: Error: page.click: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - waiting for locator('.header-left-section .selected')[22m
+[2m    - locator resolved to <button type="button" mat-button="" color="primary" _ngcontent-ng-c2366825518="" mat-ripple-loader-uninitialized="" mat-ripple-loader-class-name="mat-mdc-button-ripple" class="mdc-button mat-mdc-button-base primary-basic-button mat-mdc-button mat-primary selected">…</button>[22m
+
+Error: page.click: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - waiting for locator('.header-left-section .selected')[22m
+[2m    - locator resolved to <button type="button" mat-button="" color="primary" _ngcontent-ng-c2366825518="" mat-ripple-loader-uninitialized="" mat-ripple-loader-class-name="mat-mdc-button-ripple" class="mdc-button mat-mdc-button-base primary-basic-button mat-mdc-button mat-primary selected">…</button>[22m
+    at ClientPage.clickClientsButton (/workspace/summa/Summa/testing/playwright/pages/ClientPage.ts:20:21)
+    at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/client.steps.ts:220:20)
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:22:5
