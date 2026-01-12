@@ -9,25 +9,24 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Mon, 12 Jan 2026 09:45:54 GMT[22m
+[2m  date: Mon, 12 Jan 2026 10:32:45 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: Kestrel[22m
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
-[2m  x-rate-limit-remaining: 89999984[22m
-[2m  x-rate-limit-reset: 2026-01-19T09:41:15.9243941Z[22m
+[2m  x-rate-limit-remaining: 89999992[22m
+[2m  x-rate-limit-reset: 2026-01-19T10:29:04.3352571Z[22m
 
 Response text:
-[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ExemptIncome'.[22m
-[2mInvalid column name 'ExemptIncomeSignificantOther'.[22m
+[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
 [2m   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)[22m
 [2m   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)[22m
-[2m   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()[22m
-[2m   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean is[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecute[22m
 Error: [2mexpect([22m[31mresponse[39m[2m).[22mtoBeOK[2m([22m[2m)[22m failed
 Call log:
 [2m→ POST https://summa.org.il/api/authentication/Login[22m
@@ -37,23 +36,22 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Mon, 12 Jan 2026 09:45:54 GMT[22m
+[2m  date: Mon, 12 Jan 2026 10:32:45 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: Kestrel[22m
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
-[2m  x-rate-limit-remaining: 89999984[22m
-[2m  x-rate-limit-reset: 2026-01-19T09:41:15.9243941Z[22m
+[2m  x-rate-limit-remaining: 89999992[22m
+[2m  x-rate-limit-reset: 2026-01-19T10:29:04.3352571Z[22m
 Response text:
-[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ExemptIncome'.[22m
-[2mInvalid column name 'ExemptIncomeSignificantOther'.[22m
+[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
 [2m   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)[22m
 [2m   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)[22m
-[2m   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()[22m
-[2m   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean is[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecute[22m
     at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/login.steps.ts:44:21)
     at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:7:5
