@@ -1,1 +1,1 @@
-{"id":"99ea4bde0dc8f3ee377aeeac000dee97","fullName":"tests/features/client.feature.spec.js:12:3","name":"Create a new client","status":"broken","testResultsByEnv":{"default":"a7b5744a3ec56a80b759ebe59c56de4e"}}
+{"id":"99ea4bde0dc8f3ee377aeeac000dee97","fullName":"tests/features/client.feature.spec.js:12:3","name":"Create a new client","status":"failed","testResultsByEnv":{"default":"d9e7d89ca10d3e6a69bf84b39cfd6c50"}}
