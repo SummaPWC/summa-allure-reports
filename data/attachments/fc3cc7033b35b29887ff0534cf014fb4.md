@@ -1,0 +1,51 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "סמל" [ref=e6] [cursor=pointer]:
+        - img "סמל" [ref=e7]
+      - button "כל התיקים" [ref=e8]:
+        - generic [ref=e10]: כל התיקים
+      - button "לקוחות" [ref=e13]:
+        - generic [ref=e15]: לקוחות
+      - generic [ref=e23]:
+        - textbox "חיפוש ב-SUMMA" [ref=e25]
+        - img "לחפש" [ref=e28]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - button "Hide" [ref=e33]:
+          - generic [ref=e34]: Hide
+        - button "פעולות רוחביות" [ref=e36]:
+          - generic [ref=e37]: פעולות רוחביות
+      - generic [ref=e40]:
+        - button "Hide" [active] [ref=e42]:
+          - generic [ref=e43]: Hide
+        - button "פלוסחדש" [ref=e45]:
+          - generic [ref=e46]:
+            - img "פלוס" [ref=e47]
+            - text: חדש
+      - generic [ref=e50]:
+        - separator [ref=e51]
+        - button "מחשבונים" [ref=e53] [cursor=pointer]:
+          - img "מחשבונים" [ref=e55]
+        - button "דיווח שעות ונוכחות" [ref=e58] [cursor=pointer]:
+          - img "דיווח שעות ונוכחות" [ref=e60]
+        - button "עזרה" [ref=e63] [cursor=pointer]:
+          - img "עזרה" [ref=e65]
+        - separator [ref=e68]
+      - button "DM" [ref=e69] [cursor=pointer]:
+        - generic [ref=e71]: DM
+      - generic [ref=e72]:
+        - button "Hide" [ref=e74]:
+          - generic [ref=e75]: Hide
+        - button "אווטאר" [ref=e77] [cursor=pointer]:
+          - img "אווטאר" [ref=e78]
+  - iframe [ref=e87]:
+    - generic [active]:
+      - generic:
+        - generic:
+          - generic: +
+      - text: 
+```
