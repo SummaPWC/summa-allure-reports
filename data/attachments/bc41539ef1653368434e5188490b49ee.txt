@@ -1,0 +1,13 @@
+Error #1: [31mTest timeout of 90000ms exceeded.[39m
+[31mTest timeout of 90000ms exceeded.[39m
+
+Error #2: Error: page.goto: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - navigating to "https://summa.org.il/", waiting until "load"[22m
+
+Error: page.goto: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - navigating to "https://summa.org.il/", waiting until "load"[22m
+    at SummaPage.goto (/workspace/summa/Summa/testing/playwright/pages/SummaPage.ts:12:21)
+    at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/login.steps.ts:10:15)
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/login.feature.spec.js:15:5
