@@ -14,11 +14,10 @@ Call log:
 [2m      - element is not visible[22m
 [2m    - retrying click action[22m
 [2m      - waiting 100ms[22m
-[2m    171 × waiting for element to be visible, enabled and stable[22m
+[2m    166 × waiting for element to be visible, enabled and stable[22m
 [2m        - element is not visible[22m
 [2m      - retrying click action[22m
 [2m        - waiting 500ms[22m
-[2m    - waiting for element to be visible, enabled and stable[22m
 
 Error: locator.click: Test timeout of 90000ms exceeded.
 Call log:
@@ -33,11 +32,10 @@ Call log:
 [2m      - element is not visible[22m
 [2m    - retrying click action[22m
 [2m      - waiting 100ms[22m
-[2m    171 × waiting for element to be visible, enabled and stable[22m
+[2m    166 × waiting for element to be visible, enabled and stable[22m
 [2m        - element is not visible[22m
 [2m      - retrying click action[22m
 [2m        - waiting 500ms[22m
-[2m    - waiting for element to be visible, enabled and stable[22m
     at AuditPage.clickCreateNewAudit (/workspace/summa/Summa/testing/playwright/pages/AuditPage.ts:16:64)
     at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/client.steps.ts:285:19)
     at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:52:5

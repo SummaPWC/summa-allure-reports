@@ -14,7 +14,7 @@ Call log:
 [2m      - element is not visible[22m
 [2m    - retrying click action[22m
 [2m      - waiting 100ms[22m
-[2m    171 × waiting for element to be visible, enabled and stable[22m
+[2m    170 × waiting for element to be visible, enabled and stable[22m
 [2m        - element is not visible[22m
 [2m      - retrying click action[22m
 [2m        - waiting 500ms[22m
@@ -32,7 +32,7 @@ Call log:
 [2m      - element is not visible[22m
 [2m    - retrying click action[22m
 [2m      - waiting 100ms[22m
-[2m    171 × waiting for element to be visible, enabled and stable[22m
+[2m    170 × waiting for element to be visible, enabled and stable[22m
 [2m        - element is not visible[22m
 [2m      - retrying click action[22m
 [2m        - waiting 500ms[22m
