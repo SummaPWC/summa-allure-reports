@@ -1,0 +1,14 @@
+Error #1: [31mTest timeout of 90000ms exceeded while running "beforeEach" hook.[39m
+[31mTest timeout of 90000ms exceeded while running "beforeEach" hook.[39m
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:6:8
+
+Error #2: Error: page.goto: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - navigating to "https://summa.org.il/", waiting until "load"[22m
+
+Error: page.goto: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - navigating to "https://summa.org.il/", waiting until "load"[22m
+    at SummaPage.goto (/workspace/summa/Summa/testing/playwright/pages/SummaPage.ts:12:21)
+    at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/login.steps.ts:10:15)
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:8:5
