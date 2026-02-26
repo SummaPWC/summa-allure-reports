@@ -9,24 +9,25 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Thu, 26 Feb 2026 12:49:39 GMT[22m
+[2m  date: Thu, 26 Feb 2026 15:44:59 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: Kestrel[22m
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
-[2m  x-rate-limit-remaining: 89999993[22m
-[2m  x-rate-limit-reset: 2026-03-05T12:45:40.2936513Z[22m
+[2m  x-rate-limit-remaining: 89999648[22m
+[2m  x-rate-limit-reset: 2026-03-05T15:38:41.0385386Z[22m
 
 Response text:
-[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
+[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.[22m
+[2m ---> System.ComponentModel.Win32Exception (258): Unknown error 258[22m
 [2m   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)[22m
-[2m   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)[22m
 [2m   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)[22m
-[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecute[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResul[22m
 Error: [2mexpect([22m[31mresponse[39m[2m).[22mtoBeOK[2m([22m[2m)[22m failed
 Call log:
 [2m→ POST https://summa.org.il/api/authentication/Login[22m
@@ -36,22 +37,23 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Thu, 26 Feb 2026 12:49:39 GMT[22m
+[2m  date: Thu, 26 Feb 2026 15:44:59 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
 [2m  server: Kestrel[22m
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
-[2m  x-rate-limit-remaining: 89999993[22m
-[2m  x-rate-limit-reset: 2026-03-05T12:45:40.2936513Z[22m
+[2m  x-rate-limit-remaining: 89999648[22m
+[2m  x-rate-limit-reset: 2026-03-05T15:38:41.0385386Z[22m
 Response text:
-[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
+[2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.[22m
+[2m ---> System.ComponentModel.Win32Exception (258): Unknown error 258[22m
 [2m   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
 [2m   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)[22m
-[2m   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)[22m
 [2m   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)[22m
-[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecute[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)[22m
+[2m   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResul[22m
     at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/login.steps.ts:44:21)
     at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:7:5
