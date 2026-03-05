@@ -9,7 +9,7 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Wed, 04 Mar 2026 14:58:01 GMT[22m
+[2m  date: Thu, 05 Mar 2026 15:36:13 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
@@ -17,7 +17,7 @@ Call log:
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
 [2m  x-rate-limit-remaining: 89999985[22m
-[2m  x-rate-limit-reset: 2026-03-11T14:50:09.1504073Z[22m
+[2m  x-rate-limit-reset: 2026-03-12T15:28:48.3222891Z[22m
 
 Response text:
 [2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
@@ -36,7 +36,7 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Wed, 04 Mar 2026 14:58:01 GMT[22m
+[2m  date: Thu, 05 Mar 2026 15:36:13 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
@@ -44,7 +44,7 @@ Call log:
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
 [2m  x-rate-limit-remaining: 89999985[22m
-[2m  x-rate-limit-reset: 2026-03-11T14:50:09.1504073Z[22m
+[2m  x-rate-limit-reset: 2026-03-12T15:28:48.3222891Z[22m
 Response text:
 [2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Cannot drop the index 'ClientsYearlyData.ClientGuid', because it does not exist or you do not have permission.[22m
 [2m   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)[22m
