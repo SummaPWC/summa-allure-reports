@@ -1,0 +1,21 @@
+Error #1: [31mTest timeout of 90000ms exceeded.[39m
+[31mTest timeout of 90000ms exceeded.[39m
+
+Error #2: Error: locator.fill: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - waiting for locator('#main-frame').contentFrame().locator('#EmailNewClient')[22m
+[2m    - locator resolved to <input type="email" id="EmailNewClient" name="EmailNewClient" class="form-control " data-validation="email"/>[22m
+[2m    - fill("autotest3238454222@pw.com")[22m
+[2m  - attempting fill action[22m
+[2m    - waiting for element to be visible, enabled and editable[22m
+
+Error: locator.fill: Test timeout of 90000ms exceeded.
+Call log:
+[2m  - waiting for locator('#main-frame').contentFrame().locator('#EmailNewClient')[22m
+[2m    - locator resolved to <input type="email" id="EmailNewClient" name="EmailNewClient" class="form-control " data-validation="email"/>[22m
+[2m    - fill("autotest3238454222@pw.com")[22m
+[2m  - attempting fill action[22m
+[2m    - waiting for element to be visible, enabled and editable[22m
+    at ClientPage.createNewClient (/workspace/summa/Summa/testing/playwright/pages/ClientPage.ts:110:29)
+    at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/client.steps.ts:215:3)
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:13:5
