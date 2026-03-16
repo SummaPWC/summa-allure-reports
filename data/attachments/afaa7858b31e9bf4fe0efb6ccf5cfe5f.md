@@ -1,0 +1,171 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "סמל" [ref=e6] [cursor=pointer]:
+        - img "סמל" [ref=e7]
+      - button "כל התיקים" [ref=e8]:
+        - generic [ref=e10]: כל התיקים
+      - button "לקוחות" [ref=e13]:
+        - generic [ref=e15]: לקוחות
+      - generic [ref=e23]:
+        - textbox "חיפוש ב-SUMMA" [ref=e25]
+        - img "לחפש" [ref=e28] [cursor=pointer]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - button "Hide" [ref=e32]:
+          - generic [ref=e33]: Hide
+        - button "פעולות רוחביות" [ref=e35]:
+          - generic [ref=e36]: פעולות רוחביות
+      - generic [ref=e39]:
+        - button "Hide" [ref=e41]:
+          - generic [ref=e42]: Hide
+        - button "פלוס חדש" [ref=e44]:
+          - generic [ref=e45]:
+            - img "פלוס" [ref=e46]
+            - generic [ref=e47]: חדש
+      - generic [ref=e50]:
+        - separator [ref=e51]
+        - button "מחשבונים" [ref=e53] [cursor=pointer]:
+          - img "מחשבונים" [ref=e55]
+        - button "דיווח שעות ונוכחות" [ref=e58] [cursor=pointer]:
+          - img "דיווח שעות ונוכחות" [ref=e60]
+        - button "עזרה" [ref=e63] [cursor=pointer]:
+          - img "עזרה" [ref=e65]
+        - separator [ref=e68]
+      - button "DM" [ref=e69] [cursor=pointer]:
+        - generic [ref=e71]: DM
+      - generic [ref=e72]:
+        - button "Hide" [ref=e74]:
+          - generic [ref=e75]: Hide
+        - button "אווטאר" [ref=e77] [cursor=pointer]:
+          - img "אווטאר" [ref=e78]
+  - iframe [active] [ref=e87]:
+    - generic [ref=f1e1]:
+      - generic [ref=f1e4]:
+        - generic [ref=f1e5]:
+          - text:       ▴ ▾ ▴ ▾ ▴ ▾ ▴ ▾ ▴ ▾ ▴ ▾ ▴ ▾
+          - generic [ref=f1e6]:
+            - text:  
+            - generic " הוספת לקוח חדש חזרה לרשימה" [ref=f1e7]:
+              - generic [ref=f1e8]:
+                - generic [ref=f1e9]:
+                  - generic [ref=f1e11]: פרטים כלליים אודות הלקוח
+                  - generic [ref=f1e12]:
+                    - generic [ref=f1e14]: פעיל ?
+                    - button "כן לא" [ref=f1e16] [cursor=pointer]:
+                      - generic [ref=f1e17]:
+                        - generic [ref=f1e18]: כן
+                        - generic [ref=f1e19]: לא
+                  - generic [ref=f1e21]:
+                    - generic [ref=f1e23]: סוג יישות
+                    - generic [ref=f1e24]:
+                      - combobox [ref=f1e25]
+                      - combobox [ref=f1e28] [cursor=pointer]:
+                        - textbox
+                    - generic [ref=f1e30]: סטטוס
+                    - generic [ref=f1e31]:
+                      - combobox [ref=f1e32]
+                      - combobox [ref=f1e35] [cursor=pointer]:
+                        - textbox
+                  - generic [ref=f1e36]:
+                    - generic [ref=f1e38]: ח.פ / ח.צ
+                    - spinbutton "ח.פ / ח.צ" [ref=f1e40]: "3678986310"
+                    - generic [ref=f1e42]: תאריך התאגדות
+                    - textbox "תאריך התאגדות" [ref=f1e44]
+                  - generic [ref=f1e46]: לתשומת לבך, המספר המזהה שהוקלד אינו תואם למספר זיהוי (ת.ז / ח.פ) ישראלי
+                  - generic [ref=f1e47]:
+                    - generic [ref=f1e49]: ענף פעילות
+                    - generic [ref=f1e50]:
+                      - combobox [ref=f1e51]
+                      - combobox [ref=f1e54] [cursor=pointer]:
+                        - textbox
+                    - generic [ref=f1e56]:
+                      - text: לוגו
+                      - generic "file" [ref=f1e57]: 
+                    - generic [ref=f1e59] [cursor=pointer]:
+                      - generic [ref=f1e60]: בחירת תמונה
+                      - button "לוגו file" [ref=f1e61]
+                  - generic [ref=f1e62]:
+                    - generic [ref=f1e64]: שם
+                    - textbox "שם" [ref=f1e66]: pwname3678986310
+                    - generic [ref=f1e68]: האם התאגיד מדווח?
+                    - button "כן לא" [ref=f1e70] [cursor=pointer]:
+                      - generic [ref=f1e71]:
+                        - generic [ref=f1e72]: כן
+                        - generic [ref=f1e73]: לא
+                  - generic [ref=f1e75]:
+                    - generic [ref=f1e77]: שם בשפה משנית (אנגלית)
+                    - textbox "שם בשפה משנית (אנגלית)" [ref=f1e79]
+                  - generic [ref=f1e80]:
+                    - generic [ref=f1e82]: מספר לקוח פנימי
+                    - generic [ref=f1e84]:
+                      - textbox "מספר לקוח פנימי" [ref=f1e85]: "94939016"
+                      - generic "הצע את המספר הפנוי הבא" [ref=f1e86] [cursor=pointer]:
+                        - generic [ref=f1e87]: "?"
+                    - generic [ref=f1e89]: מספר לקוח להנהלת חשבונות
+                    - textbox "מספר לקוח להנהלת חשבונות" [ref=f1e91]
+                  - generic [ref=f1e93]: כתובת הלקוח
+                  - generic [ref=f1e94]:
+                    - generic [ref=f1e96]: עיר
+                    - generic [ref=f1e97]:
+                      - combobox [ref=f1e98]
+                      - combobox "עיר" [ref=f1e101] [cursor=pointer]:
+                        - textbox [ref=f1e102]
+                    - generic [ref=f1e104]: רחוב
+                    - generic [ref=f1e105]:
+                      - combobox [ref=f1e106]
+                      - combobox "רחוב" [ref=f1e109] [cursor=pointer]:
+                        - textbox [ref=f1e110]
+                  - generic [ref=f1e111]:
+                    - generic [ref=f1e113]: מספר בית
+                    - textbox "מספר בית" [ref=f1e115]
+                    - generic [ref=f1e117]: מיקוד
+                    - textbox "מיקוד" [ref=f1e119]
+                  - generic [ref=f1e120]:
+                    - generic [ref=f1e122]: כתובת בשפה משנית (אנגלית)
+                    - textbox "כתובת בשפה משנית (אנגלית)" [ref=f1e124]
+                  - generic [ref=f1e125]:
+                    - generic [ref=f1e127]: האם הכתובת הראשית משמשת גם למשלוח דואר?
+                    - button "כן לא" [ref=f1e129] [cursor=pointer]:
+                      - generic [ref=f1e130]:
+                        - generic [ref=f1e131]: כן
+                        - generic [ref=f1e132]: לא
+                  - generic [ref=f1e135]: אפשרויות ליצירת קשר
+                  - generic [ref=f1e136]:
+                    - generic [ref=f1e138]: טלפון משרדי
+                    - textbox "טלפון משרדי" [ref=f1e140]
+                    - generic [ref=f1e142]: טלפון נייד
+                    - textbox "טלפון נייד" [ref=f1e144]
+                  - generic [ref=f1e145]:
+                    - generic [ref=f1e147]: פקס / טלפון בבית
+                    - textbox "פקס / טלפון בבית" [ref=f1e149]
+                    - generic [ref=f1e151]: אימייל
+                    - textbox "אימייל" [active] [ref=f1e153]: autotest3678986310@pw.com
+                  - generic [ref=f1e155]: חשבונות בנק
+                  - generic [ref=f1e156]:
+                    - generic [ref=f1e157]:
+                      - combobox [ref=f1e158]
+                      - combobox "בנק" [ref=f1e161] [cursor=pointer]:
+                        - textbox [ref=f1e162]
+                    - generic [ref=f1e163]:
+                      - combobox [ref=f1e164]
+                      - combobox "סניף" [ref=f1e167] [cursor=pointer]:
+                        - textbox [ref=f1e168]
+                    - generic [ref=f1e170]:
+                      - spinbutton [ref=f1e171]
+                      - generic "החשבון מוגדר כחשבון הראשי" [ref=f1e172] [cursor=pointer]:
+                        - generic [ref=f1e173]: 
+                    - generic [ref=f1e175]:
+                      - textbox "שם חשבון" [ref=f1e176]
+                      - generic "הוספת חשבון בנק נוסף" [ref=f1e177] [cursor=pointer]:
+                        - generic [ref=f1e178]: +
+                      - generic "איפוס חשבון הבנק" [ref=f1e179] [cursor=pointer]:
+                        - generic [ref=f1e180]: 
+                - button "הוספת הלקוח" [ref=f1e183] [cursor=pointer]
+        - text: +
+      - generic "חזרה למעלה" [ref=f1e184]:
+        - generic [ref=f1e185]: 
+```
