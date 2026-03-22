@@ -10,4 +10,4 @@ Call log:
 [2m  - waiting for locator('#main-frame').contentFrame().locator('#FirstNameNewClient')[22m
     at ClientPage.createNewClient (/workspace/summa/Summa/testing/playwright/pages/ClientPage.ts:108:33)
     at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/client.steps.ts:215:3)
-    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:13:5
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:21:5

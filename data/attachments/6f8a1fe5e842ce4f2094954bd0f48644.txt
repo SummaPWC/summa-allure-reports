@@ -9,7 +9,7 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Fri, 20 Mar 2026 14:44:29 GMT[22m
+[2m  date: Sun, 22 Mar 2026 13:18:03 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
@@ -17,7 +17,7 @@ Call log:
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
 [2m  x-rate-limit-remaining: 89999984[22m
-[2m  x-rate-limit-reset: 2026-03-27T14:36:11.4214971Z[22m
+[2m  x-rate-limit-reset: 2026-03-29T13:10:23.7231070Z[22m
 
 Response text:
 [2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.[22m
@@ -38,7 +38,7 @@ Call log:
 [2m  Content-Type: application/json[22m
 [2m  content-length: 41[22m
 [2m← 500 Internal Server Error[22m
-[2m  date: Fri, 20 Mar 2026 14:44:29 GMT[22m
+[2m  date: Sun, 22 Mar 2026 13:18:03 GMT[22m
 [2m  content-type: text/plain; charset=utf-8[22m
 [2m  transfer-encoding: chunked[22m
 [2m  connection: keep-alive[22m
@@ -46,7 +46,7 @@ Call log:
 [2m  api-supported-versions: 1.0[22m
 [2m  x-rate-limit-limit: 7d[22m
 [2m  x-rate-limit-remaining: 89999984[22m
-[2m  x-rate-limit-reset: 2026-03-27T14:36:11.4214971Z[22m
+[2m  x-rate-limit-reset: 2026-03-29T13:10:23.7231070Z[22m
 Response text:
 [2mMicrosoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.[22m
 [2m ---> System.ComponentModel.Win32Exception (258): Unknown error 258[22m
