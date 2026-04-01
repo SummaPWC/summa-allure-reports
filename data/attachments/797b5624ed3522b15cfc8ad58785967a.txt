@@ -1,2 +1,0 @@
-Error #1: [31mTest timeout of 90000ms exceeded.[39m
-[31mTest timeout of 90000ms exceeded.[39m
