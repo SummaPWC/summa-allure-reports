@@ -1,1 +1,1 @@
-{"id":"288e303630190b5c01d01d516232ba0b","fullName":"tests/features/login.feature.spec.js:13:3","name":"Login via API","status":"passed","testResultsByEnv":{"default":"58effe72bc13f611319e95d628e847a1"}}
+{"id":"288e303630190b5c01d01d516232ba0b","fullName":"tests/features/login.feature.spec.js:13:3","name":"Login via API","status":"broken","testResultsByEnv":{"default":"46757c55ebed76ff0a23f8b7b385cdf2"}}
