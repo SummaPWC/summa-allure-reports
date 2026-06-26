@@ -1,0 +1,61 @@
+Error #1: Error: [2mexpect([22m[31mresponse[39m[2m).[22mtoBeOK[2m([22m[2m)[22m failed
+
+
+Call log:
+[2m→ POST https://summa.org.il/api/authentication/Login[22m
+[2m  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Safari/537.36[22m
+[2m  accept: */*[22m
+[2m  accept-encoding: gzip,deflate,br[22m
+[2m  Content-Type: application/json[22m
+[2m  content-length: 50[22m
+[2m← 500 Internal Server Error[22m
+[2m  date: Fri, 26 Jun 2026 18:45:58 GMT[22m
+[2m  content-type: text/html[22m
+[2m  transfer-encoding: chunked[22m
+[2m  connection: keep-alive[22m
+[2m  server: Kestrel[22m
+[2m  cache-control: no-cache,no-store[22m
+[2m  expires: Thu, 01 Jan 1970 00:00:00 GMT[22m
+[2m  pragma: no-cache[22m
+[2m  set-cookie: Summa.Auth=CfDJ8IDanMuUWVlBgHPNHoZmy0ry3Z-Hvt0LUeLXetcUHfNslkUp2BRO0Nf1rKZrajaEIv3Y5PCG8189ulCN9yhU5mN8gy4k0wzpB2aPxLj7B0zigMcAAK71_lN5VCb6Lk5gaGsBmBGLjQVihOX9emPOLx9NF9po1iU8rrAyb_HkbxTKSKYE0hb7l0_2r25K16gvbC3U8l7PylUtPsqeV36LDR1SBHZIkZrOAhtVz1BcxYZwZeOxrlcPMEHR6VGVKb6cGiS166rZORt19jRLoR-Ni1gvtbEfyWuucHVA_CiiMn7F767QTGVT2I62eqUBxvocKFJsrSRx0UQqeyAYc50-1IOeRldvKWCaY8B1sTqR4qq5LV6XTIiHC0a_ET5DINUaFDn6JJ9odVcJXHN2Ms7vbvL0bpPILxXxzO9jGNicjYYfDujFnaqSrmBfFH7LaHDPWFeK12cN8LbkrQHAp4E4-yQQPu_bjZUKx4M45yz3fonK7t6tvR6-ijv0W2ikoheePMSrUpwQVUgES8ZmDgUJd4YsuZLbHOIYv5ilvhIv-Ou_wt47iRfDnPx9lVq9DBxgC6nkv7pwwygVBmqVJZ6iR_b9dMaCsia8wg7Ha78hVZ_0kD4cQubbse2IkZC7fEnCaTzDzp3R7rVa4IJf6VkyVRfZJ9SvChU4zsdhmJpd8xUlpGRZl06_ZzIxlsG9zq554fjyU__UQBSQiM7Iu1VAKxDbB2OqMKsWJvVf9ZHf8eLbgt5OD246V3OMQj1T3feImDvs8T3K-YgPCqAd0ugymvpJ748bMshjUOgz3RZwm8_VmU15uLaJgY0zJcYMYdfPMkpZSM9NQ1qHIqzqfM0PK_ldtmPauVme8JN0ljLcEuEr6KoJQ_o7s2myPEMudTEm1afcUd9XLdfdif2tiZQ3qyzJXm4zB3weNZtNQUG-lTUs7ykp56c-enu3hUS0rJV4W0izeiImiXggxPgGkb6netT648kTGwY2Y4T9kVUhC2SigWUvwYnQDWCyUaJBae_8Kc37xp1pj7nXjEoq9vUBHu1m8zhRg9gZFB_YlWV9F8neZvR50ED9uP6G2ZtJ1dNvGDcqcSzhMhhSenABSvF-k8ayl0cP6yMUDtrMBa-N4dnOgJdHPROsZhc7Y8FAjC_8cyKbucGe7i3j6Zee5aR6CAWBHD7EuqPDdfo3wEdBkNsJTHPZP7UtL3tiVC95MRT9buBksF3Rl9xUk3hADxw5LO04NKkhReXvSrJLAl2qERBtStJHKOxJiSovb-oJM8dIFzxM2UoUjDO_npmE74x9Gy8Wvp6W2sdJgcOHcS_IvL9sUJknMeuXLX9574b1SWwkc5sgJiGnx_8ovs13Ya_y_Nh4VWuzUJrpW6ldwd_uOIPCyLKJZuY_HCrFB8ib9XBbzwULIOM6rtvaJGTzCKc3IMEKWCurct7yFSAbqmk13zdF-Eazd61eZ50zbPP2L-bnXKFj0g2GWquF1A5eSDqtajAeMwHl_Q0o_7uIY5uWGYTwd7htFaBezfXUXG6JXAdszw5x3fDVcxXBGsCBbPzhERT_R4O9rnZPtXVox9eQHdyRZqwlQ4qQ9MLWnAlVWKF19Cu5bg8EJnLL4_TtNcsRnjju2kQkBMabY3TjScJdM9F70kIpRzv_AcwFP8wY2xlDDxnPecWVJAR-cVf865P4S4HDn4MSqDkeTIwwoZTGcesAI0xkdUpbFwq_um8x4R_eofrptFsL_CvGSgxKJZo3WJtYAg84vgGAKiD6Nq5qOsyphr1YbUjkdjzFSbWzDIfUuW9fGhFqOM9BdlEsC-PUEcESdUyjpgdM7Tv6gMsBwp644UpWmzvwiX-KYFFppIp1du01N7vm2gYLCflP842EX0Ly4Cjk5Iwl9RGGpon6bj65VEEHCDIkgRTBs3QiP9SwnalDGUi3SmWUsQSjG8vUMM4; path=/; samesite=lax; httponly[22m
+[2m  api-supported-versions: 1.0[22m
+[2m  x-rate-limit-limit: 7d[22m
+[2m  x-rate-limit-remaining: 89999981[22m
+[2m  x-rate-limit-reset: 2026-07-03T18:40:37.3459893Z[22m
+
+Response text:
+[2m<html lang="en"><body>[22m
+[2mERROR!<br><br>[22m
+[2m<a href="/">Home</a><br>[22m
+[2m</body></html>[22m
+[2m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                [22m
+Error: [2mexpect([22m[31mresponse[39m[2m).[22mtoBeOK[2m([22m[2m)[22m failed
+Call log:
+[2m→ POST https://summa.org.il/api/authentication/Login[22m
+[2m  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Safari/537.36[22m
+[2m  accept: */*[22m
+[2m  accept-encoding: gzip,deflate,br[22m
+[2m  Content-Type: application/json[22m
+[2m  content-length: 50[22m
+[2m← 500 Internal Server Error[22m
+[2m  date: Fri, 26 Jun 2026 18:45:58 GMT[22m
+[2m  content-type: text/html[22m
+[2m  transfer-encoding: chunked[22m
+[2m  connection: keep-alive[22m
+[2m  server: Kestrel[22m
+[2m  cache-control: no-cache,no-store[22m
+[2m  expires: Thu, 01 Jan 1970 00:00:00 GMT[22m
+[2m  pragma: no-cache[22m
+[2m  set-cookie: Summa.Auth=CfDJ8IDanMuUWVlBgHPNHoZmy0ry3Z-Hvt0LUeLXetcUHfNslkUp2BRO0Nf1rKZrajaEIv3Y5PCG8189ulCN9yhU5mN8gy4k0wzpB2aPxLj7B0zigMcAAK71_lN5VCb6Lk5gaGsBmBGLjQVihOX9emPOLx9NF9po1iU8rrAyb_HkbxTKSKYE0hb7l0_2r25K16gvbC3U8l7PylUtPsqeV36LDR1SBHZIkZrOAhtVz1BcxYZwZeOxrlcPMEHR6VGVKb6cGiS166rZORt19jRLoR-Ni1gvtbEfyWuucHVA_CiiMn7F767QTGVT2I62eqUBxvocKFJsrSRx0UQqeyAYc50-1IOeRldvKWCaY8B1sTqR4qq5LV6XTIiHC0a_ET5DINUaFDn6JJ9odVcJXHN2Ms7vbvL0bpPILxXxzO9jGNicjYYfDujFnaqSrmBfFH7LaHDPWFeK12cN8LbkrQHAp4E4-yQQPu_bjZUKx4M45yz3fonK7t6tvR6-ijv0W2ikoheePMSrUpwQVUgES8ZmDgUJd4YsuZLbHOIYv5ilvhIv-Ou_wt47iRfDnPx9lVq9DBxgC6nkv7pwwygVBmqVJZ6iR_b9dMaCsia8wg7Ha78hVZ_0kD4cQubbse2IkZC7fEnCaTzDzp3R7rVa4IJf6VkyVRfZJ9SvChU4zsdhmJpd8xUlpGRZl06_ZzIxlsG9zq554fjyU__UQBSQiM7Iu1VAKxDbB2OqMKsWJvVf9ZHf8eLbgt5OD246V3OMQj1T3feImDvs8T3K-YgPCqAd0ugymvpJ748bMshjUOgz3RZwm8_VmU15uLaJgY0zJcYMYdfPMkpZSM9NQ1qHIqzqfM0PK_ldtmPauVme8JN0ljLcEuEr6KoJQ_o7s2myPEMudTEm1afcUd9XLdfdif2tiZQ3qyzJXm4zB3weNZtNQUG-lTUs7ykp56c-enu3hUS0rJV4W0izeiImiXggxPgGkb6netT648kTGwY2Y4T9kVUhC2SigWUvwYnQDWCyUaJBae_8Kc37xp1pj7nXjEoq9vUBHu1m8zhRg9gZFB_YlWV9F8neZvR50ED9uP6G2ZtJ1dNvGDcqcSzhMhhSenABSvF-k8ayl0cP6yMUDtrMBa-N4dnOgJdHPROsZhc7Y8FAjC_8cyKbucGe7i3j6Zee5aR6CAWBHD7EuqPDdfo3wEdBkNsJTHPZP7UtL3tiVC95MRT9buBksF3Rl9xUk3hADxw5LO04NKkhReXvSrJLAl2qERBtStJHKOxJiSovb-oJM8dIFzxM2UoUjDO_npmE74x9Gy8Wvp6W2sdJgcOHcS_IvL9sUJknMeuXLX9574b1SWwkc5sgJiGnx_8ovs13Ya_y_Nh4VWuzUJrpW6ldwd_uOIPCyLKJZuY_HCrFB8ib9XBbzwULIOM6rtvaJGTzCKc3IMEKWCurct7yFSAbqmk13zdF-Eazd61eZ50zbPP2L-bnXKFj0g2GWquF1A5eSDqtajAeMwHl_Q0o_7uIY5uWGYTwd7htFaBezfXUXG6JXAdszw5x3fDVcxXBGsCBbPzhERT_R4O9rnZPtXVox9eQHdyRZqwlQ4qQ9MLWnAlVWKF19Cu5bg8EJnLL4_TtNcsRnjju2kQkBMabY3TjScJdM9F70kIpRzv_AcwFP8wY2xlDDxnPecWVJAR-cVf865P4S4HDn4MSqDkeTIwwoZTGcesAI0xkdUpbFwq_um8x4R_eofrptFsL_CvGSgxKJZo3WJtYAg84vgGAKiD6Nq5qOsyphr1YbUjkdjzFSbWzDIfUuW9fGhFqOM9BdlEsC-PUEcESdUyjpgdM7Tv6gMsBwp644UpWmzvwiX-KYFFppIp1du01N7vm2gYLCflP842EX0Ly4Cjk5Iwl9RGGpon6bj65VEEHCDIkgRTBs3QiP9SwnalDGUi3SmWUsQSjG8vUMM4; path=/; samesite=lax; httponly[22m
+[2m  api-supported-versions: 1.0[22m
+[2m  x-rate-limit-limit: 7d[22m
+[2m  x-rate-limit-remaining: 89999981[22m
+[2m  x-rate-limit-reset: 2026-07-03T18:40:37.3459893Z[22m
+Response text:
+[2m<html lang="en"><body>[22m
+[2mERROR!<br><br>[22m
+[2m<a href="/">Home</a><br>[22m
+[2m</body></html>[22m
+[2m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                [22m
+    at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/login.steps.ts:44:21)
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:7:5
