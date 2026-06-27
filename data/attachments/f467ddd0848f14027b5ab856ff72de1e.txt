@@ -19,4 +19,4 @@ Call log:
 [2m  - waiting for locator('app-home')[22m
     at SummaPage.expectHomeVisible (/workspace/summa/Summa/testing/playwright/pages/SummaPage.ts:67:40)
     at Object.<anonymous> (/workspace/summa/Summa/testing/playwright/tests/step-definitions/login.steps.ts:28:15)
-    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/login.feature.spec.js:10:5
+    at /workspace/summa/Summa/testing/playwright/.features-gen/tests/features/client.feature.spec.js:9:5
