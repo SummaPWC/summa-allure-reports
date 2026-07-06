@@ -1,1 +1,1 @@
-{"id":"45c43313d89fc02660efef4c3db68e76","fullName":"tests/features/login.feature.spec.js:6:3","name":"Login via UI with valid credentials","status":"passed","testResultsByEnv":{"default":"bbcf31e534327cc0de11b97650a39cf7"}}
+{"id":"45c43313d89fc02660efef4c3db68e76","fullName":"tests/features/login.feature.spec.js:6:3","name":"Login via UI with valid credentials","status":"failed","testResultsByEnv":{"default":"195d8be62a775ac569f6222349ecf0b3"}}
