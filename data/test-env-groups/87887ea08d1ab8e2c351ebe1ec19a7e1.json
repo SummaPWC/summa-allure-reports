@@ -1,1 +1,1 @@
-{"id":"87887ea08d1ab8e2c351ebe1ec19a7e1","fullName":"tests/features/client.feature.spec.js:48:3","name":"Create a new audit case","status":"failed","testResultsByEnv":{"default":"672a65211afa6c0342ef927caa0deda5"}}
+{"id":"87887ea08d1ab8e2c351ebe1ec19a7e1","fullName":"tests/features/client.feature.spec.js:48:3","name":"Create a new audit case","status":"passed","testResultsByEnv":{"default":"362f879a88d1314d270b834762b1e582"}}
